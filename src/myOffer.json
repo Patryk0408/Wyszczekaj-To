@@ -1,0 +1,27 @@
+[
+	{
+		"id": "1",
+		"title": "Warsztaty grupowe",
+		"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nobis cumque quia dolorum atque eum laborum ratione totam explicabo maiores id a sit corrupti recusandae alias, quas, aperiam amet provident!"
+	},
+	{
+		"id": "2",
+		"title": "Konsultacje online",
+		"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nobis cumque quia dolorum atque eum laborum ratione totam explicabo maiores id a sit corrupti recusandae alias, quas, aperiam amet provident!"
+	},
+	{
+		"id": "3",
+		"title": "Konsultacje behawioralne",
+		"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nobis cumque quia dolorum atque eum laborum ratione totam explicabo maiores id a sit corrupti recusandae alias, quas, aperiam amet provident!"
+	},
+	{
+		"id": "3",
+		"title": "Zajęcia dla szczeniaków",
+		"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nobis cumque quia dolorum atque eum laborum ratione totam explicabo maiores id a sit corrupti recusandae alias, quas, aperiam amet provident!"
+	},
+	{
+		"id": "3",
+		"title": "Zajęcia indywidualne",
+		"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nobis cumque quia dolorum atque eum laborum ratione totam explicabo maiores id a sit corrupti recusandae alias, quas, aperiam amet provident!"
+	}
+]
