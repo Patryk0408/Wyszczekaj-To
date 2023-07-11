@@ -2,6 +2,7 @@ import Header from './common/Header'
 import AboutUs from './features/AboutUs'
 import Home from './features/Home'
 import Offer from './features/Offer'
+import Contact from './features/Contact'
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 					ipsa dolores autem placeat.'
 			/>
 			<Offer />
+			<Contact />
 		</div>
 	)
 }

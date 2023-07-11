@@ -9,7 +9,7 @@ export const Title = styled.h2`
 	font-size: 90px;
 	text-transform: uppercase;
 	text-align: center;
-	padding: 150px 0 0;
+	padding: 110px 0 0;
 `
 
 export const TitleWhite = styled.span`
@@ -18,7 +18,7 @@ export const TitleWhite = styled.span`
 	text-transform: capitalize;
 `
 export const Offers = styled.div`
-	padding: 0 20px 100px;
+	padding: 0 20px 110px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
