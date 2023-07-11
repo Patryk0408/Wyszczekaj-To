@@ -2,9 +2,9 @@ import styled from 'styled-components'
 import Baner from '../../img/LANDING-PAGE.png'
 import { ReactComponent as Down } from '../../img/stat_minus_3_FILL0_wght400_GRAD0_opsz48.svg'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
 	position: relative;
-	top: 100px;
+	padding: 100px 0 0;
 `
 
 export const Description = styled.div`
@@ -26,7 +26,7 @@ export const Background = styled.div`
 export const Title = styled.h1`
 	margin: 0;
 	text-transform: uppercase;
-	font-size: 80px;
+	font-size: 90px;
 	color: ${({ theme }) => theme.color.white};
 `
 

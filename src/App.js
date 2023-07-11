@@ -1,4 +1,5 @@
 import Header from './common/Header'
+import AboutUs from './features/AboutUs'
 import Home from './features/Home'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<div>
 			<Header />
 			<Home />
+			<AboutUs />
 		</div>
 	)
 }
