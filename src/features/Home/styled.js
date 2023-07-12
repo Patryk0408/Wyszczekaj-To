@@ -18,16 +18,29 @@ export const Description = styled.div`
 export const Background = styled.div`
 	background-image: url(${Baner});
 	width: 100%;
-	height: 850px;
+	height: 700px;
 	background-size: cover;
 	filter: brightness(0.3);
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
+		height: 850px;
+	}
 `
 
 export const Title = styled.h1`
 	margin: 0;
 	text-transform: uppercase;
-	font-size: 90px;
+	font-size: 60px;
+	text-align: center;
 	color: ${({ theme }) => theme.color.white};
+	padding: 0 20px;
+	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
+		font-size: 75px;
+	}
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		font-size: 90px;
+	}
 `
 
 export const Training = styled.span`
@@ -44,5 +57,8 @@ export const Paragraph = styled.p`
 
 export const IconDown = styled(Down)`
 	fill: #fff;
-	margin: 80px auto 0;
+	bottom: 150px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 `

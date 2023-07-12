@@ -6,10 +6,18 @@ export const Wrapper = styled.section`
 `
 
 export const Title = styled.h2`
-	font-size: 90px;
+	font-size: 50px;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 110px 0 0;
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
+		font-size: 75px;
+	}
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		font-size: 90px;
+	}
 `
 
 export const TitleWhite = styled.span`

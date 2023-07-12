@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 	position: fixed;
 	background-color: ${({ theme }) => theme.color.white};
 	z-index: 1;
-	box-shadow: 0px 3px 20px #666666;
+	box-shadow: 0px 3px 20px #666666; /*do zmiany jeszcze*/
 `
 
 export const Logo = styled.img`
@@ -24,4 +24,12 @@ export const Nav = styled.ul`
 	font-size: 24px;
 	margin-right: 100px;
 	list-style-type: none;
+
+	@media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		display: none;
+	}
+`
+
+export const NavItem = styled.li`
+	width: max-content;
 `

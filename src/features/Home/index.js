@@ -9,8 +9,8 @@ const Home = () => {
 					Centrum <Training>szkolenia</Training> psów
 				</Title>
 				<Paragraph>U nas dowiesz się jak dogadać się ze swoim psem</Paragraph>
-				<IconDown />
 			</Description>
+			<IconDown />
 		</Wrapper>
 	)
 }

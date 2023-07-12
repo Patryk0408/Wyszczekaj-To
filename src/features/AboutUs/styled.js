@@ -22,7 +22,15 @@ export const Description = styled.div`
 export const Title = styled.h2`
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 90px;
+	font-size: 60px;
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
+		font-size: 75px;
+	}
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		font-size: 90px;
+	}
 `
 
 export const TitleRed = styled.span`

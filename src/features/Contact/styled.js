@@ -31,18 +31,26 @@ export const TextWrapper = styled.div`
 `
 
 export const Title = styled.h2`
-	font-size: 70px;
+	font-size: 50px;
 	text-transform: uppercase;
 	padding: 0 0 50px;
 	margin: 0;
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		font-size: 70px;
+	}
 `
 
 export const TitleSpan = styled.span`
 	font-family: 'Chewy', cursive;
 	color: ${({ theme }) => theme.color.mandy};
 	text-transform: capitalize;
-	font-size: 125px;
+	font-size: 75px;
 	line-height: 0.7;
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		font-size: 125px;
+	}
 `
 
 export const TitleParagraph = styled.p`
