@@ -4,32 +4,52 @@ export const Wrapper = styled.section`
 	padding: 170px 20px;
 	display: flex;
 	justify-content: center;
-	grid-gap: 100px;
-	flex-wrap: wrap;
+	grid-gap: 30px;
+	flex-direction: column;
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+		flex-direction: row;
+	}
 `
 
 export const Dogs = styled.img`
-	max-width: 700px;
+	max-width: 600px;
 	width: 100%;
 	height: 100%;
+	margin: 0 auto;
+	@media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+		max-width: 700px;
+	}
 `
 
 export const Description = styled.div`
 	max-width: 600px;
-	padding: 0 20px 0 0;
+	padding: 0 0 0 0;
+	margin: 0 auto;
 `
 
 export const Title = styled.h2`
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 60px;
+	position: absolute;
+	bottom: -150px;
+	width: 100%;
+	left: 0;
+	right: 0;
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
 		font-size: 75px;
+		bottom: -330px;
 	}
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
 		font-size: 90px;
+	}
+	@media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
+		font-size: 90px;
+		position: relative;
+		bottom: unset;
 	}
 `
 
@@ -42,4 +62,5 @@ export const TitleRed = styled.span`
 export const Paragraph = styled.p`
 	font-size: 24px;
 	font-weight: 700;
+	text-align: center;
 `

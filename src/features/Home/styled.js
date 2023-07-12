@@ -17,6 +17,7 @@ export const Description = styled.div`
 
 export const Background = styled.div`
 	background-image: url(${Baner});
+	background-position-x: center;
 	width: 100%;
 	height: 700px;
 	background-size: cover;
@@ -53,6 +54,7 @@ export const Paragraph = styled.p`
 	font-weight: 700;
 	color: ${({ theme }) => theme.color.white};
 	text-align: center;
+	padding: 0 20px;
 `
 
 export const IconDown = styled(Down)`

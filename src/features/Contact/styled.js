@@ -1,9 +1,20 @@
 import styled from 'styled-components'
 import contactImage from '../../img/KONTAKT.png'
+import waveImage from '../../img/fala.png'
 
 export const Wrapper = styled.div`
 	position: relative;
 	padding: 0 0 400px;
+`
+
+export const Wave = styled.div`
+	background-image: url(${waveImage});
+	position: absolute;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	max-height: 225px;
 `
 
 export const Background = styled.div`
@@ -13,6 +24,7 @@ export const Background = styled.div`
 	position: absolute;
 	bottom: 0;
 	background-size: cover;
+	background-position-x: center;
 	filter: brightness(0.3);
 `
 
@@ -20,7 +32,7 @@ export const ContactWrapper = styled.div`
 	display: flex;
 	justify-content: center;
 	position: relative;
-	padding: 200px 0 0;
+	padding: 150px 0 0;
 	flex-wrap: wrap;
 	gap: 200px;
 `
