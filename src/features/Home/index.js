@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 const Home = () => {
 	return (
-		<Wrapper>
+		<Wrapper id='Home'>
 			<Background />
 			<Description>
 				<Title>
