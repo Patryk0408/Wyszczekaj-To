@@ -1,4 +1,5 @@
-import { Wrapper, Description, Title, Training, Paragraph, Background, IconDown } from './styled'
+import { Wrapper, Description, Title, Training, Paragraph, Background, IconDown, IconWrapper } from './styled'
+import { Link } from 'react-scroll'
 
 const Home = () => {
 	return (
@@ -10,7 +11,11 @@ const Home = () => {
 				</Title>
 				<Paragraph>U nas dowiesz się jak dogadać się ze swoim psem</Paragraph>
 			</Description>
-			<IconDown />
+			<Link to='AboutUs' smooth={true} duration={500} offset={-75}>
+				<IconWrapper>
+					<IconDown />
+				</IconWrapper>
+			</Link>
 		</Wrapper>
 	)
 }

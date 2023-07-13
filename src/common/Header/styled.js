@@ -38,4 +38,8 @@ export const Nav = styled.ul`
 
 export const NavItem = styled.li`
 	width: max-content;
+
+	&:hover {
+		cursor: pointer;
+	}
 `

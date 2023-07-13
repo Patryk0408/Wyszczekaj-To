@@ -24,7 +24,7 @@ import { ReactComponent as InstagramIcon } from '../../img/instagram.svg'
 const Contact = () => {
 	return (
 		<>
-			<Wrapper>
+			<Wrapper id='Contact'>
 				<Background />
 				<ContactWrapper>
 					<TextWrapper>

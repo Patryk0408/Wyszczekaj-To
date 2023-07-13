@@ -3,7 +3,7 @@ import dogsPhoto from '../../img/O-NAS.jpg'
 
 const AboutUs = ({ content }) => {
 	return (
-		<Wrapper>
+		<Wrapper id='AboutUs'>
 			<Description>
 				<Title>
 					Czym się

@@ -5,7 +5,7 @@ const Offer = () => {
 	const myOffer = offer
 
 	return (
-		<Wrapper>
+		<Wrapper id='Offer'>
 			<Title>
 				Przejrzyj <TitleWhite>naszą</TitleWhite> ofertę
 			</Title>

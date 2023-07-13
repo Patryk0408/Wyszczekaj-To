@@ -65,5 +65,14 @@ export const IconDown = styled(Down)`
 	bottom: 150px;
 	position: absolute;
 	text-align: center;
+
+	&:hover {
+		cursor: pointer;
+	}
+`
+
+export const IconWrapper = styled.span`
 	width: 100%;
+	display: flex;
+	justify-content: center;
 `
