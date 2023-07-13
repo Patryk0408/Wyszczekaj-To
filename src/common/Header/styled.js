@@ -1,4 +1,11 @@
 import styled, { css } from 'styled-components'
+import { Link } from 'react-scroll'
+
+export const NavLink = styled(Link)`
+	display: block;
+	width: 100%;
+	-webkit-tap-highlight-color: transparent !important;
+`
 
 export const Wrapper = styled.div`
 	width: 100%;
@@ -64,6 +71,7 @@ export const Nav = styled.ul`
 export const NavItem = styled.li`
 	padding: 20px;
 	font-size: 1.2em;
+	-webkit-tap-highlight-color: transparent !important;
 	&:hover {
 		cursor: pointer;
 	}
@@ -82,4 +90,5 @@ export const MenuMobile = styled.span`
 	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
 		display: none;
 	}
+	-webkit-tap-highlight-color: transparent !important;
 `

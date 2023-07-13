@@ -1,6 +1,5 @@
-import { Wrapper, Logo, Nav, NavItem, MenuMobile } from './styled'
+import { Wrapper, Logo, Nav, NavItem, MenuMobile, NavLink } from './styled'
 import pageLogo from '../../img/logo.png'
-import { Link } from 'react-scroll'
 import { useState } from 'react'
 
 const Header = () => {
@@ -12,24 +11,24 @@ const Header = () => {
 
 	return (
 		<Wrapper>
-			<Link to='Home' smooth={true} duration={500} offset={-75}>
+			<NavLink to='Home' smooth={true} duration={500} offset={-75}>
 				<Logo src={pageLogo} href='logo' />
-			</Link>
+			</NavLink>
 			<Nav active={menuActive}>
 				<NavItem>
-					<Link to='AboutUs' smooth={true} duration={500} offset={-75}>
+					<NavLink to='AboutUs' smooth={true} duration={500} offset={-75}>
 						O nas
-					</Link>
+					</NavLink>
 				</NavItem>
 				<NavItem>
-					<Link to='Offer' smooth={true} duration={500} offset={-75}>
+					<NavLink to='Offer' smooth={true} duration={500} offset={-75}>
 						Oferta
-					</Link>
+					</NavLink>
 				</NavItem>
 				<NavItem>
-					<Link to='Contact' smooth={true} duration={500}>
+					<NavLink to='Contact' smooth={true} duration={500}>
 						Kontakt
-					</Link>
+					</NavLink>
 				</NavItem>
 			</Nav>
 			<MenuMobile className='material-symbols-outlined' onClick={toggleMenuActive}>
