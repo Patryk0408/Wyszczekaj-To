@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.section`
-	padding: 170px 20px;
+	padding: 120px 20px;
 	display: flex;
 	justify-content: center;
 	grid-gap: 30px;
@@ -31,16 +31,16 @@ export const Description = styled.div`
 export const Title = styled.h2`
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 60px;
+	font-size: 50px;
 	position: absolute;
-	bottom: -150px;
+	bottom: -70px;
 	width: 100%;
 	left: 0;
 	right: 0;
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
 		font-size: 75px;
-		bottom: -330px;
+		bottom: -270px;
 	}
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
