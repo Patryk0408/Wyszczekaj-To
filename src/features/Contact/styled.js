@@ -26,7 +26,7 @@ export const ContactWrapper = styled.div`
 	flex-direction: column;
 	justify-content: space-evenly;
 	position: relative;
-	padding: 100px 20px 0;
+	padding: 70px 20px 0;
 	align-items: center;
 	gap: 50px;
 
