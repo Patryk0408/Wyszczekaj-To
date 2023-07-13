@@ -8,7 +8,7 @@ export const Wrapper = styled.section`
 	flex-direction: column;
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
-		padding: 120px 20px;
+		padding: 100px 20px;
 	}
 `
 
@@ -27,7 +27,7 @@ export const Dogs = styled.img`
 
 export const Description = styled.div`
 	max-width: 600px;
-	padding: 0 0 0 0;
+	padding: 0;
 	margin: 0 auto;
 	position: relative;
 	@media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {

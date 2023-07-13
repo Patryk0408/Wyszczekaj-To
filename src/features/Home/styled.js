@@ -4,7 +4,10 @@ import { ReactComponent as Down } from '../../img/stat_minus_3_FILL0_wght400_GRA
 
 export const Wrapper = styled.section`
 	position: relative;
-	padding: 100px 0 0;
+	padding: 80px 0 0;
+	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
+		padding: 100px 0 0;
+	}
 `
 
 export const Description = styled.div`
@@ -31,7 +34,7 @@ export const Background = styled.div`
 export const Title = styled.h1`
 	margin: 0;
 	text-transform: uppercase;
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 	color: ${({ theme }) => theme.color.white};
 	padding: 0 20px;
