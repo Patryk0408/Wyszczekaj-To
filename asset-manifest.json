@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wyszczekaj-to/static/js/main.607558d3.js",
+    "main.js": "/wyszczekaj-to/static/js/main.18c9219d.js",
     "static/js/787.aa3dcbba.chunk.js": "/wyszczekaj-to/static/js/787.aa3dcbba.chunk.js",
     "static/media/O-NAS.jpg": "/wyszczekaj-to/static/media/O-NAS.7dab95dbdd7a7299b74c.jpg",
     "static/media/LANDING-PAGE.png": "/wyszczekaj-to/static/media/LANDING-PAGE.6d50c90d980fe2a568b1.png",
@@ -11,10 +11,10 @@
     "index.html": "/wyszczekaj-to/index.html",
     "static/media/facebook.svg": "/wyszczekaj-to/static/media/facebook.a3b4d705faaba0ce0123d6b7e4f4965f.svg",
     "static/media/stat_minus_3_FILL0_wght400_GRAD0_opsz48.svg": "/wyszczekaj-to/static/media/stat_minus_3_FILL0_wght400_GRAD0_opsz48.3734cbe0fe3d5490e2cfd491c2d2eeed.svg",
-    "main.607558d3.js.map": "/wyszczekaj-to/static/js/main.607558d3.js.map",
+    "main.18c9219d.js.map": "/wyszczekaj-to/static/js/main.18c9219d.js.map",
     "787.aa3dcbba.chunk.js.map": "/wyszczekaj-to/static/js/787.aa3dcbba.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.607558d3.js"
+    "static/js/main.18c9219d.js"
   ]
 }
