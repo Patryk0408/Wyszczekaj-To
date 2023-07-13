@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/wyszczekaj-to/static/js/main.cd6b951b.js",
+    "main.js": "/wyszczekaj-to/static/js/main.cdfc0be7.js",
     "static/js/787.aa3dcbba.chunk.js": "/wyszczekaj-to/static/js/787.aa3dcbba.chunk.js",
     "static/media/O-NAS.jpg": "/wyszczekaj-to/static/media/O-NAS.7dab95dbdd7a7299b74c.jpg",
     "static/media/LANDING-PAGE.png": "/wyszczekaj-to/static/media/LANDING-PAGE.6d50c90d980fe2a568b1.png",
     "static/media/KONTAKT.png": "/wyszczekaj-to/static/media/KONTAKT.0d9977a1ff4a429d68d3.png",
     "static/media/logo.png": "/wyszczekaj-to/static/media/logo.3501d2e86449d62f5e26.png",
+    "static/media/fala.png": "/wyszczekaj-to/static/media/fala.4dfacfd592fa08f0404c.png",
     "index.html": "/wyszczekaj-to/index.html",
     "static/media/stat_minus_3_FILL0_wght400_GRAD0_opsz48.svg": "/wyszczekaj-to/static/media/stat_minus_3_FILL0_wght400_GRAD0_opsz48.3734cbe0fe3d5490e2cfd491c2d2eeed.svg",
-    "main.cd6b951b.js.map": "/wyszczekaj-to/static/js/main.cd6b951b.js.map",
+    "main.cdfc0be7.js.map": "/wyszczekaj-to/static/js/main.cdfc0be7.js.map",
     "787.aa3dcbba.chunk.js.map": "/wyszczekaj-to/static/js/787.aa3dcbba.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.cd6b951b.js"
+    "static/js/main.cdfc0be7.js"
   ]
 }
