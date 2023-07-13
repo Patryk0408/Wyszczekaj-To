@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.section`
 	background-color: ${({ theme }) => theme.color.mandy};
-	padding: 0 20px;
+	padding: 0 20px 20px;
 `
 
 export const Title = styled.h2`
