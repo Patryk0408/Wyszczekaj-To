@@ -129,14 +129,14 @@ export const SocialMedia = styled.div`
 	align-items: center;
 	height: fit-content;
 	gap: 10px;
-	padding: 0 0 25px;
+	padding: 0 0 30px;
 	font-weight: 700;
 
 	${({ smaller }) =>
 		smaller &&
 		css`
 			gap: 0;
-			padding: 0 0 20px;
+			padding: 0 0 25px;
 		`};
 `
 
@@ -150,7 +150,7 @@ export const Connection = styled.div`
 	text-align: center;
 	display: grid;
 	align-content: end;
-	margin: 0 30px 15px;
+	margin: 0 30px 25px;
 	font-size: 0.8em;
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.laptop}) {
