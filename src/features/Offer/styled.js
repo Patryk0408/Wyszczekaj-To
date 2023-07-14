@@ -36,7 +36,7 @@ export const Offers = styled.div`
 
 export const OfferItem = styled.div`
 	max-width: 260px;
-	height: 450px;
+	min-height: 450px;
 	background-color: ${({ theme }) => theme.color.white};
 	border-radius: 30px;
 	padding: 30px 20px;

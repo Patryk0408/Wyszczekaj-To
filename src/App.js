@@ -9,11 +9,7 @@ function App() {
 		<div>
 			<Header />
 			<Home />
-			<AboutUs
-				content='Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi debitis explicabo dolore eveniet atque
-					reiciendis dignissimos repudiandae corporis quia praesentium molestias, laborum nobis accusantium esse fuga
-					ipsa dolores autem placeat.'
-			/>
+			<AboutUs content='Witaj w Centrum Szkolenia Psów Wyszczekaj To! Oferuję spersonalizowane szkolenia oparte na metodzie pozytywnego wzmocnienia dla psów w każdym wieku i rasie. Dzięki mojemu doświadczeniu i wiedzy zapewniam kompleksową pomoc w rozwiązywaniu problemów behawioralnych oraz osiąganiu celów związanych z posłuszeństwem. Dołącz do naszej społeczności miłośników psów i odkryj potencjał swojego pupila dzięki moim skutecznym programom szkoleniowym. Skontaktuj się ze mną już dziś, aby rozpocząć swoją przygodę w budowaniu silniejszej więzi i posłusznego towarzysza.' />
 			<Offer />
 			<Contact />
 		</div>

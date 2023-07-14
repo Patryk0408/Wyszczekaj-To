@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import contactImage from '../../img/KONTAKT.png'
+import contactImage from '../../img/KONTAKT.jpg'
 import waveImage from '../../img/fala.png'
 
 export const Wrapper = styled.section`
@@ -129,14 +129,14 @@ export const SocialMedia = styled.div`
 	align-items: center;
 	height: fit-content;
 	gap: 10px;
-	padding: 0 0 20px;
+	padding: 0 0 25px;
 	font-weight: 700;
 
 	${({ smaller }) =>
 		smaller &&
 		css`
 			gap: 0;
-			padding: 0 0 15px;
+			padding: 0 0 20px;
 		`};
 `
 
@@ -172,4 +172,17 @@ export const SocialTitle = styled.span`
 	@media (min-width: ${({ theme }) => theme.breakpoint.laptop}) {
 		display: block;
 	}
+`
+
+export const Copyright = styled.div`
+	display: flex;
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	justify-content: center;
+	gap: 5px;
+`
+
+export const CopyrightLink = styled.a`
+	color: ${({ theme }) => theme.color.heavyMetal};
 `

@@ -5,6 +5,13 @@ export const NavLink = styled(Link)`
 	display: block;
 	width: 100%;
 	-webkit-tap-highlight-color: transparent !important;
+	padding: 20px;
+
+	${({ logo }) =>
+		logo &&
+		css`
+			padding: 0;
+		`}
 `
 
 export const Wrapper = styled.div`
@@ -69,7 +76,6 @@ export const Nav = styled.ul`
 `
 
 export const NavItem = styled.li`
-	padding: 20px;
 	font-size: 1.2em;
 	-webkit-tap-highlight-color: transparent !important;
 	&:hover {

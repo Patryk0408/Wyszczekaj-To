@@ -11,7 +11,7 @@ const Header = () => {
 
 	return (
 		<Wrapper>
-			<NavLink to='Home' smooth={true} duration={500} offset={-75}>
+			<NavLink logo to='Home' smooth={true} duration={500} offset={-75}>
 				<Logo src={pageLogo} href='logo' />
 			</NavLink>
 			<Nav active={menuActive}>

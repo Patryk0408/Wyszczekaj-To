@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Baner from '../../img/LANDING-PAGE.png'
+import Baner from '../../img/LANDING-PAGE.jpg'
 import { ReactComponent as Down } from '../../img/stat_minus_3_FILL0_wght400_GRAD0_opsz48.svg'
 
 export const Wrapper = styled.section`

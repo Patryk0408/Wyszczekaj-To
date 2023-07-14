@@ -17,6 +17,8 @@ import {
 	ConnectionTitle,
 	ConnectionItem,
 	SocialTitle,
+	Copyright,
+	CopyrightLink,
 } from './styled'
 import { ReactComponent as FacebookIcon } from '../../img/facebook.svg'
 import { ReactComponent as InstagramIcon } from '../../img/instagram.svg'
@@ -58,6 +60,12 @@ const Contact = () => {
 						<ConnectionItem>wyszczekajto@opoczta.pl</ConnectionItem>
 					</Connection>
 				</Wave>
+				<Copyright>
+					&copy; Powered by{' '}
+					<CopyrightLink href='https://www.linkedin.com/in/patryk-krawczyk-b651b8260/' target='blank'>
+						Patryk0408
+					</CopyrightLink>
+				</Copyright>
 			</Wrapper>
 		</>
 	)

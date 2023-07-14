@@ -8,7 +8,7 @@ export const Wrapper = styled.section`
 	flex-direction: column;
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.desktop}) {
-		padding: 100px 20px;
+		padding: 0px 20px;
 	}
 `
 
