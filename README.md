@@ -1,5 +1,11 @@
 ## DEMO: https://patryk0408.github.io/wyszczekaj-to/
 
+# Used technology:
+
+    - React
+    - Styled-components
+    - React-scroll
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
