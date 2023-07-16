@@ -1,8 +1,8 @@
 {
-	"name": "wyszczekaj-to-react",
+	"name": "wyszczekaj-to",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://patryk0408.github.io/wyszczekaj-to-react/",
+	"homepage": "https://patryk0408.github.io/wyszczekaj-to/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
