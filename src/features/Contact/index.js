@@ -19,6 +19,7 @@ import {
 	SocialTitle,
 	Copyright,
 	CopyrightLink,
+	LinkToSocial,
 } from './styled'
 import { ReactComponent as FacebookIcon } from '../../img/facebook.svg'
 import { ReactComponent as InstagramIcon } from '../../img/instagram.svg'
@@ -43,12 +44,26 @@ const Contact = () => {
 				</ContactWrapper>
 				<Wave>
 					<SocialMediaContainer>
-						<SocialMedia smaller>
-							<InstagramIcon width='40' height='40' /> <SocialTitle>@wyszczekajto_szkoleniepsow</SocialTitle>
+						<SocialMedia
+							href='https://www.instagram.com/wyszczekajto_szkoleniepsow/'
+							rel='nofollow'
+							target='_blank'
+							smaller>
+							{/* <LinkToSocial href='https://www.instagram.com/wyszczekajto_szkoleniepsow/' rel='nofollow' target='_blank'> */}
+							<InstagramIcon width='40' height='40' />
+
+							<SocialTitle>@wyszczekajto_szkoleniepsow</SocialTitle>
+							{/* </LinkToSocial> */}
 						</SocialMedia>
-						<SocialMedia>
+						<SocialMedia href='https://www.facebook.com/profile.php?id=100089853856901' rel='nofollow' target='_blank'>
+							{/* <LinkToSocial
+								href='https://www.facebook.com/profile.php?id=100089853856901'
+								rel='nofollow'
+								target='_blank'> */}
 							<FacebookIcon width='30' height='30' />
+
 							<SocialTitle>Wyszczekaj To - Centrum Szkolenia Psów</SocialTitle>
+							{/* </LinkToSocial> */}
 						</SocialMedia>
 					</SocialMediaContainer>
 					<Connection>
@@ -59,7 +74,7 @@ const Contact = () => {
 				</Wave>
 				<Copyright>
 					&copy; Powered by{' '}
-					<CopyrightLink href='https://www.linkedin.com/in/patryk-krawczyk-b651b8260/' target='blank'>
+					<CopyrightLink href='https://www.linkedin.com/in/patryk-krawczyk-b651b8260/' rel='nofollow' target='_blank'>
 						Patryk0408
 					</CopyrightLink>
 				</Copyright>

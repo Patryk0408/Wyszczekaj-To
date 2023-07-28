@@ -21,7 +21,7 @@ export const Dogs = styled.img`
 		max-width: 700px;
 		order: 1;
 		position: relative;
-		top: 50px;
+		top: 180px;
 	}
 `
 

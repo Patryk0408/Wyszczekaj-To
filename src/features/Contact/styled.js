@@ -124,13 +124,15 @@ export const SocialMediaContainer = styled.div`
 		gap: 30px;
 	}
 `
-export const SocialMedia = styled.div`
+export const SocialMedia = styled.a`
 	display: flex;
 	align-items: center;
 	height: fit-content;
 	gap: 10px;
 	padding: 0 0 30px;
 	font-weight: 700;
+	color: ${({ theme }) => theme.color.heavyMetal};
+	text-decoration: none;
 
 	${({ smaller }) =>
 		smaller &&
@@ -191,3 +193,11 @@ export const Copyright = styled.div`
 export const CopyrightLink = styled.a`
 	color: ${({ theme }) => theme.color.heavyMetal};
 `
+
+// export const LinkToSocial = styled.a`
+// 	display: flex;
+// 	text-decoration: none;
+// 	color: ${({ theme }) => theme.color.heavyMetal};
+// 	align-items: center;
+// 	gap: 5px;
+// `
