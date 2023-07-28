@@ -193,11 +193,3 @@ export const Copyright = styled.div`
 export const CopyrightLink = styled.a`
 	color: ${({ theme }) => theme.color.heavyMetal};
 `
-
-// export const LinkToSocial = styled.a`
-// 	display: flex;
-// 	text-decoration: none;
-// 	color: ${({ theme }) => theme.color.heavyMetal};
-// 	align-items: center;
-// 	gap: 5px;
-// `

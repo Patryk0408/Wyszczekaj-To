@@ -19,7 +19,6 @@ import {
 	SocialTitle,
 	Copyright,
 	CopyrightLink,
-	LinkToSocial,
 } from './styled'
 import { ReactComponent as FacebookIcon } from '../../img/facebook.svg'
 import { ReactComponent as InstagramIcon } from '../../img/instagram.svg'
@@ -49,21 +48,12 @@ const Contact = () => {
 							rel='nofollow'
 							target='_blank'
 							smaller>
-							{/* <LinkToSocial href='https://www.instagram.com/wyszczekajto_szkoleniepsow/' rel='nofollow' target='_blank'> */}
 							<InstagramIcon width='40' height='40' />
-
 							<SocialTitle>@wyszczekajto_szkoleniepsow</SocialTitle>
-							{/* </LinkToSocial> */}
 						</SocialMedia>
 						<SocialMedia href='https://www.facebook.com/profile.php?id=100089853856901' rel='nofollow' target='_blank'>
-							{/* <LinkToSocial
-								href='https://www.facebook.com/profile.php?id=100089853856901'
-								rel='nofollow'
-								target='_blank'> */}
 							<FacebookIcon width='30' height='30' />
-
 							<SocialTitle>Wyszczekaj To - Centrum Szkolenia Psów</SocialTitle>
-							{/* </LinkToSocial> */}
 						</SocialMedia>
 					</SocialMediaContainer>
 					<Connection>
