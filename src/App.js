@@ -9,7 +9,7 @@ function App() {
 		<div>
 			<Header />
 			<Home />
-			<AboutUs content='Witaj w Centrum Szkolenia Psów Wyszczekaj To! Oferuję spersonalizowane szkolenia oparte na metodzie pozytywnego wzmocnienia dla psów w każdym wieku i rasie. Dzięki mojemu doświadczeniu i wiedzy zapewniam kompleksową pomoc w rozwiązywaniu problemów behawioralnych oraz osiąganiu celów związanych z posłuszeństwem. Dołącz do naszej społeczności miłośników psów i odkryj potencjał swojego pupila dzięki moim skutecznym programom szkoleniowym. Skontaktuj się ze mną już dziś, aby rozpocząć swoją przygodę w budowaniu silniejszej więzi i posłusznego towarzysza.' />
+			<AboutUs content='Witamy w Wyszczekaj To Centrum Szkolenia Psów, gdzie zrozumienie psiej komunikacji jest kluczem do skutecznego treningu i budowania głębokiej więzi z naszymi czworonożnymi przyjaciółmi! Wierzymy, że komunikacja jest kluczem do udanej relacji z psem. Uczymy właścicieli rozpoznawania subtelnych znaków i sygnałów wysyłanych przez psy, które często wyrażają emocje, potrzeby i zamiary. Poprzez zrozumienie mowy ciała i języka psów, możemy lepiej zareagować na ich sygnały, co prowadzi do efektywniejszego treningu i większej harmonii w naszych interakcjach. Dołącz do nas, aby zrozumieć swojego psa lepiej niż kiedykolwiek wcześniej i zbudować trwałą, pełną zaufania relację między Wami. Czekamy na Was z otwartymi sercami i entuzjazmem!' />
 			<Offer />
 			<Contact />
 		</div>

@@ -18,7 +18,6 @@ export const Background = styled.div`
 	bottom: 0;
 	background-size: cover;
 	background-position-x: center;
-	filter: brightness(0.3);
 `
 
 export const ContactWrapper = styled.div`
@@ -75,6 +74,7 @@ export const TitleParagraph = styled.p`
 `
 
 export const Description = styled.div`
+	min-height: 80px;
 	font-size: 18px;
 	font-weight: 700;
 `
@@ -181,6 +181,11 @@ export const Copyright = styled.div`
 	bottom: 5px;
 	justify-content: center;
 	gap: 5px;
+	font-size: 0.8em;
+
+	@media (min-width: ${({ theme }) => theme.breakpoint.tablet}) {
+		font-size: 1em;
+	}
 `
 
 export const CopyrightLink = styled.a`

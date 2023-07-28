@@ -16,7 +16,7 @@ const Header = () => {
 			</NavLink>
 			<Nav active={menuActive}>
 				<NavItem>
-					<NavLink to='AboutUs' smooth={true} duration={500} offset={-75}>
+					<NavLink to='AboutUs' smooth={true} duration={500} offset={-50}>
 						O nas
 					</NavLink>
 				</NavItem>

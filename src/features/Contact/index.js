@@ -34,10 +34,7 @@ const Contact = () => {
 							Umów się na <br />
 							<TitleSpan>darmową</TitleSpan> <TitleParagraph>konsultacje telefoniczną</TitleParagraph>
 						</Title>
-						<Description>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nobis cumque quia dolorum atque eum
-							laborum ratione totam explicabo maiores id a sit corrupti recusandae alias, quas, aperiam amet provident!
-						</Description>
+						<Description>Nie rozumiesz co twój pies ma ci do powiedzenia? Rozwiążmy tę zagadkę razem!!!</Description>
 					</TextWrapper>
 					<Send>
 						<SendTitle>Napisz do nas!</SendTitle>

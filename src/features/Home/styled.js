@@ -24,7 +24,6 @@ export const Background = styled.div`
 	width: 100%;
 	height: 700px;
 	background-size: cover;
-	filter: brightness(0.3);
 
 	@media (min-width: ${({ theme }) => theme.breakpoint.mobile}) {
 		height: 850px;
