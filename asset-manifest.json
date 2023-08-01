@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wyszczekaj-to/static/js/main.f5f641f8.js",
+    "main.js": "/wyszczekaj-to/static/js/main.a18a5e02.js",
     "static/js/787.aa3dcbba.chunk.js": "/wyszczekaj-to/static/js/787.aa3dcbba.chunk.js",
     "static/media/KONTAKT.jpg": "/wyszczekaj-to/static/media/KONTAKT.3ba6195aa79678ba79fb.jpg",
     "static/media/LANDING-PAGE.jpg": "/wyszczekaj-to/static/media/LANDING-PAGE.e437d5dd165c616818d7.jpg",
@@ -10,10 +10,10 @@
     "static/media/instagram.svg": "/wyszczekaj-to/static/media/instagram.845f332a3cb5946b8a9e89260eb42287.svg",
     "static/media/facebook.svg": "/wyszczekaj-to/static/media/facebook.a3b4d705faaba0ce0123d6b7e4f4965f.svg",
     "static/media/stat_minus_3_FILL0_wght400_GRAD0_opsz48.svg": "/wyszczekaj-to/static/media/stat_minus_3_FILL0_wght400_GRAD0_opsz48.3734cbe0fe3d5490e2cfd491c2d2eeed.svg",
-    "main.f5f641f8.js.map": "/wyszczekaj-to/static/js/main.f5f641f8.js.map",
+    "main.a18a5e02.js.map": "/wyszczekaj-to/static/js/main.a18a5e02.js.map",
     "787.aa3dcbba.chunk.js.map": "/wyszczekaj-to/static/js/787.aa3dcbba.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f5f641f8.js"
+    "static/js/main.a18a5e02.js"
   ]
 }
