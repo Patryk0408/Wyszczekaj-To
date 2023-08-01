@@ -49,5 +49,9 @@ export const OfferTitle = styled.h3`
 `
 
 export const OfferDescription = styled.p`
-	margin: 25px 0 0;
+	margin: 25px 0;
+`
+
+export const OfferStar = styled.span`
+	font-size: 12px;
 `

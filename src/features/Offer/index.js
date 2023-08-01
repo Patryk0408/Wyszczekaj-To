@@ -1,4 +1,4 @@
-import { Wrapper, Title, TitleWhite, Offers, OfferItem, OfferTitle, OfferDescription } from './styled'
+import { Wrapper, Title, TitleWhite, Offers, OfferItem, OfferTitle, OfferDescription, OfferStar } from './styled'
 import offer from '../../myOffer.json'
 
 const Offer = () => {
@@ -14,6 +14,7 @@ const Offer = () => {
 					<OfferItem key={offers.id}>
 						<OfferTitle>{offers.title}</OfferTitle>
 						<OfferDescription>{offers.content}</OfferDescription>
+						<OfferStar>{offers.star}</OfferStar>
 					</OfferItem>
 				))}
 			</Offers>
