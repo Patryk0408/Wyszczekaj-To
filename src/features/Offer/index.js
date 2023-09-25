@@ -14,10 +14,15 @@ const Offer = () => {
 					<OfferItem key={offers.id}>
 						<OfferTitle>{offers.title}</OfferTitle>
 						<OfferDescription>{offers.content}</OfferDescription>
-						<OfferStar>{offers.star}</OfferStar>
 					</OfferItem>
 				))}
 			</Offers>
+			<OfferStar>
+				* Warunkiem uczestnictwa psa są szczepienia na choroby zakaźne. W cenie szkolenia jest 7 godzinnych spotkań.
+				Spotkania będą odbywać się tego samego dnia, o stałej godzinie. Każdy uczestnik dostanie w mailu liste rzeczy,
+				które należy przygotować na spotkanie, plan spotkania a także regulamin. Zajęcia będą odbywać się w 3
+				osobowo-psich grupach. Każdy uczestnik na koniec szkolenia dostanie dyplom uczestnictwa.
+			</OfferStar>
 		</Wrapper>
 	)
 }

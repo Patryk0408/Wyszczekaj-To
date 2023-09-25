@@ -27,7 +27,7 @@ export const TitleWhite = styled.span`
 	text-transform: capitalize;
 `
 export const Offers = styled.div`
-	padding: 0 20px 110px;
+	padding: 0 20px 80px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -36,7 +36,6 @@ export const Offers = styled.div`
 
 export const OfferItem = styled.div`
 	max-width: 260px;
-	min-height: 450px;
 	background-color: ${({ theme }) => theme.color.white};
 	border-radius: 30px;
 	padding: 30px 20px;
@@ -49,9 +48,9 @@ export const OfferTitle = styled.h3`
 `
 
 export const OfferDescription = styled.p`
-	margin: 25px 0;
+	margin: 25px 0 0;
 `
 
 export const OfferStar = styled.span`
-	font-size: 12px;
+	font-size: 14px;
 `
